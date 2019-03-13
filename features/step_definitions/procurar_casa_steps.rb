@@ -21,10 +21,6 @@ Quando("aplico os filtros") do
     click_button('Aplicar')
 end
 
-Entao("apresentara as casas mais proximas") do
-  assert_text('Consolação')
-end
-
 Entao("valido os filtros") do
   assert_text('1 vagas')
   assert_text('Mobiliado')
@@ -32,3 +28,9 @@ Entao("valido os filtros") do
   assert_text('1, 2 dorms')
   assert_text('Não aceita')
 end
+
+Entao("apresentara as casas mais proximas") do
+  assert_text('Consolação')
+end
+
+
