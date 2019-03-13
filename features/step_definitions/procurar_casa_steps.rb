@@ -29,7 +29,7 @@ Entao("valido os filtros") do
   assert_text('Não aceita')
 end
 
-Entao("apresentara as casas mais proximas") do
+Entao("visualizo as casas mais proximas") do
   assert_text('Consolação')
 end
 
