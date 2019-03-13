@@ -11,5 +11,5 @@ Cenário: Procurar casa por localidade
    Quando  procurar uma casa por uma localidade
    E aplico os filtros
    Entao valido os filtros
-   E apresentara as casas mais proximas
+   E visualizo as casas mais proximas
 
