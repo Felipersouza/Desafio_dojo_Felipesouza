@@ -3,7 +3,7 @@ Dado("que esteja na home page") do
   visit 'https://www.quintoandar.com.br/'
 end
 
-Quando("procurar uma casa por uma localidade") do
+Quando("procurar um Apartamento por uma localidade") do
   fill_in "LocationName", :with => "Paulista/consolação"
   find('#searchbutton').click
 end
@@ -29,7 +29,7 @@ Entao("valido os filtros") do
   assert_text('Não aceita')
 end
 
-Entao("visualizo as casas mais proximas") do
+Entao("visualizo os Apartamentos mais proximos") do
   assert_text('Consolação')
 end
 
