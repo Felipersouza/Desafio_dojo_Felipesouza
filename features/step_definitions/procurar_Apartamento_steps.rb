@@ -4,12 +4,14 @@ Dado("que esteja na home page") do
 end
 
 Quando("procurar um Apartamento por uma localidade") do
-  fill_in "LocationName", :with => "Paulista/consolação"
-  find('#searchbutton').click
+  find('div:nth-child(1) > div > div.MuiFormControl-root.MuiFormControl-fullWidth > div > input').set 'São Paulo'
+  find('#ChIJ0WGkg4FEzpQRrlsz_whLqZs').click
+  find('form > div > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6 > div > div.MuiFormControl-root.MuiFormControl-fullWidth > div > input').set 'Consolação'
+  find('#\37 2').click
 end
 
 Quando("aplico os filtros") do
-    click_button('Filtrar')
+    find('.MuiButtonBase-root.MuiButton-root.MuiButton-contained.sc-brqgnP.dBgFwg.MuiButton-containedPrimary').click
     find('.s14vxbo3-0.kDHltx > div:nth-child(2) > div:nth-child(2) > ul > div > li:first-child > label').click
     find('.s14vxbo3-0.kDHltx > div:nth-child(2) > div:nth-child(2) > ul > div > li:nth-child(2) > label').click
     #first('label[class="sc-iELTvK dCCKdC"]').click
