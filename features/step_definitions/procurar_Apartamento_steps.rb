@@ -14,8 +14,6 @@ Quando("aplico os filtros") do
     find('.MuiButtonBase-root.MuiButton-root.MuiButton-contained.sc-brqgnP.dBgFwg.MuiButton-containedPrimary').click
     find('.s14vxbo3-0.kDHltx > div:nth-child(2) > div:nth-child(2) > ul > div > li:first-child > label').click
     find('.s14vxbo3-0.kDHltx > div:nth-child(2) > div:nth-child(2) > ul > div > li:nth-child(2) > label').click
-    #first('label[class="sc-iELTvK dCCKdC"]').click
-    #driver.findElement(By.cssSelector("input[id='id-19-1']"))
     find('.s14vxbo3-0.kDHltx > div:nth-child(3) > div:nth-child(3) > div:nth-child(2) > ul > div> li:nth-child(2) > label').click
     find('.s14vxbo3-0.kDHltx > div:nth-child(3) > div:nth-child(4) > div:nth-child(2) > ul > div> li:nth-child(2) > label').click
     find('.s14vxbo3-0.kDHltx > div:nth-child(3) > div:nth-child(5) > div:nth-child(2) > ul > div> li:nth-child(2) > label').click
